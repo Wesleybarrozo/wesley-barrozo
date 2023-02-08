@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+
+} 
+
+.caixa{
+    display: flex  ;
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+.capa-info{
+    width: 50vw;
+    height: 100vh;
+    background-color: #0A6FDB;
+    
+}
+
+
+.capa-foto{
+    
+    width: 50vw;
+    height: 100vh;
+
+    background-image: url(img/248579589_4301709126622687_3994186826558893745_n.jpg);
+    background-size: cover;
+
+}
+
+ul{
+    display: flex;
+
+}
+
+li{
+    margin: 10px;
+}
+
+a{
+    color: white;
+}
