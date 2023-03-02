@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Roboto' "sem serifa";
 
 } 
 
@@ -14,7 +15,7 @@
 .capa-info{
     width: 50vw;
     height: 100vh;
-    background-color: #0A6FDB;
+    background-color: #015761;
     
 }
 
@@ -29,15 +30,52 @@
 
 }
 
+.capa-info h1{
+    margin-top: 30px;
+    margin-left: 50px;
+
+    font-size: 26px;
+    color: #f7dc4f;
+    font-family: 'Roboto', sem serifa;
+    
+    
+
+}
+
 ul{
     display: flex;
+    margin-top: 30px;
+    margin-left: 50px;
+
 
 }
 
 li{
-    margin: 10px;
+    margin-left: 10px;
+    font-family: 'Roboto-thin';
+
+
 }
 
 a{
     color: white;
+    font-family: 'Roboto-thin', sem serifa;
+}
+
+.capa-info h2{
+    color: #f7dc4f;
+
+
+}
+
+.capa-info h3{
+    color: #fff;
+    font-size: 114px;
+
+}
+
+.capa-info h4{
+    color: #fff;
+    font-size: 16px;
+
 }
