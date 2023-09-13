@@ -1,81 +1,37 @@
-* {
+*{
     margin: 0;
     padding: 0;
-    font-family: 'Roboto' "sem serifa";
+    box-sizing: border-box;
+    font-family: "arial";
+}
 
-} 
-
-.caixa{
-    display: flex  ;
+.div-apresetaçao,.div-final{
+    display: flex;
     width: 100vw;
     height: 100vh;
-    
 }
 
-.capa-info{
-    width: 50vw;
-    height: 100vh;
-    background-color: #015761;
-    
+.sobre-mim,.Certificados,.Portifolio{
+    width: 100vw;
+    height: 50vh;
 }
 
+.div-apresetaçao1,.foto-capa,.foto-contra-capa,.Contato{
+    flex: 1;
+}
 
-.capa-foto{
-    
-    width: 50vw;
-    height: 100vh;
+.div-apresetaçao1,.Contato{
+    background-color: #2061B7;
 
-    background-image: url(img/248579589_4301709126622687_3994186826558893745_n.jpg);
+}
+
+.sobre-mim{
+    background-color: #bde9fb;
+}
+
+.foto-capa,.foto-contra-capa{
+    background-image: url(IMG_7003.JPEG);
     background-size: cover;
-
-}
-
-.capa-info h1{
-    margin-top: 30px;
-    margin-left: 50px;
-
-    font-size: 26px;
-    color: #f7dc4f;
-    font-family: 'Roboto', sem serifa;
-    
-    
-
-}
-
-ul{
-    display: flex;
-    margin-top: 30px;
-    margin-left: 50px;
-
-
-}
-
-li{
-    margin-left: 10px;
-    font-family: 'Roboto-thin';
-
-
-}
-
-a{
-    color: white;
-    font-family: 'Roboto-thin', sem serifa;
-}
-
-.capa-info h2{
-    color: #f7dc4f;
-
-
-}
-
-.capa-info h3{
-    color: #fff;
-    font-size: 114px;
-
-}
-
-.capa-info h4{
-    color: #fff;
-    font-size: 16px;
-
+    background-position: center;
+    background-attachment: fixed
 }
