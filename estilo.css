@@ -5,6 +5,67 @@
     font-family: "arial";
 }
 
+.div-botao-wesley-barrozo{
+    margin: 20px;
+
+}
+
+.botao-wesley-barrozo{
+    margin: 20px;
+    font-size: 25px;
+    color: #BDE9FB;
+    
+}
+
+.div-ul{
+    background-color: #281A39;
+
+}
+
+.ul-nav{
+    display: flex;
+    
+}
+
+li{
+    margin: 10px;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+a{
+    margin: 10px;
+    text-decoration: none;
+    color: #f6f6f6 ;
+
+}
+
+
+.texto-aprensetaçao{
+    text-align:left;
+    margin-top: 180px;
+    margin-left: 20px;
+}
+
+.ola-sou{
+   font-size: 50px;
+   color: #BDE9FB;
+}
+
+.wesley-barrozo{
+    font-size: 110px;
+    color: #f6f6f6 ;
+}
+
+.pequena-informaçao{
+
+    font-size: 15px;
+    color: #f6f6f6 ;
+
+}
+
+
 .div-apresetaçao,.div-final{
     display: flex;
     width: 100vw;
@@ -25,13 +86,54 @@
 
 }
 
-.sobre-mim{
-    background-color: #bde9fb;
-}
-
-.foto-capa,.foto-contra-capa{
+.foto-capa{
     background-image: url(img/IMG_7003.JPEG);
     background-size: cover;
     background-position: center;
     background-attachment: fixed
+}
+
+.foto-contra-capa{
+    background-image: url(img/IMG_6341.JPEG);
+    background-size: cover;
+    background-position: center;
+}
+
+.sobre-mim{
+    background-color: #bde9fb;
+    text-align: center;
+    padding: 90px;
+}
+
+.texto-sobre-mim,p{
+    padding-bottom: 50px;
+}
+
+.Certificados{
+    background-color: #f6f6f6;
+
+    text-align: center;
+
+}
+
+.Portifolio{
+
+    background-color: #f6f6f6;
+
+    text-align: center;
+
+}
+
+.Contato h1{
+    font-size: 90px;
+    padding: 30px ;
+    color: #BDE9FB;
+}
+
+.contato-pessoal{
+    color: #f6f6f6;
+    padding: 12px 30px;
+
+    font-size: 15px;
+
 }
