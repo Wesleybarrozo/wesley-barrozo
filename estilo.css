@@ -66,13 +66,13 @@ a{
 }
 
 
-.div-apresetaçao,.div-final{
+.div-apresetaçao,.div-final,.Certificados{
     display: flex;
     width: 100vw;
     height: 100vh;
 }
 
-.sobre-mim,.Certificados,.Portifolio{
+.sobre-mim,.Certificados,.div-educação,.div-Certificados{
     width: 100vw;
     height: 50vh;
 }
@@ -112,8 +112,19 @@ a{
 .Certificados{
     background-color: #f6f6f6;
 
-    text-align: center;
+}
 
+.container{
+    display: flex;
+}
+
+.cursos{
+    margin: 20px;
+    background-color: #2061B7;
+    color: #f6f6f6;
+
+    padding: 12px;
+    border-radius: 30px;
 }
 
 .Portifolio{
@@ -137,3 +148,4 @@ a{
     font-size: 15px;
 
 }
+
