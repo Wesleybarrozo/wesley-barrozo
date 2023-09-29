@@ -1,243 +1,160 @@
-*{
+/* Reset global */
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "arial";
+    font-family: 'sans-serif';
 }
 
-.div-botao-wesley-barrozo{
-    margin: 20px;
-}
-
-.botao-wesley-barrozo{
+/* Primeira div */
+.div-botao-wesley-barrozo,
+.botao-wesley-barrozo {
     margin: 20px;
     font-size: 25px;
-    color: #BDE9FB;   
+    color: #BDE9FB;
 }
 
-.div-ul{
+/* Navegação */
+.div-ul {
     background-color: #281A39;
 }
 
-.ul-nav{
-    display: flex; 
+.ul-nav {
+    display: flex;
 }
 
-li{
+li, a {
     margin: 10px;
     text-decoration: none;
     list-style-type: none;
+    color: #f6f6f6;
 }
 
-a{
-    margin: 10px;
-    text-decoration: none;
-    color: #f6f6f6 ;
-}
-
-.texto-aprensetaçao{
-    text-align:left;
+/* Textos */
+.texto-aprensetaçao {
+    text-align: left;
     margin-top: 180px;
     margin-left: 20px;
 }
 
-.ola-sou{
-   font-size: 50px;
-   color: #BDE9FB;
+.ola-sou {
+    font-size: 50px;
+    color: #BDE9FB;
 }
 
-.wesley-barrozo{
+.wesley-barrozo {
     font-size: 110px;
-    color: #f6f6f6 ;
+    color: #f6f6f6;
 }
 
-.pequena-informaçao{
-
+.pequena-informaçao {
     font-size: 15px;
-    color: #f6f6f6 ;
+    color: #f6f6f6;
 }
 
-.div-apresetaçao,.div-final,.Certificados{
+/* Tamanhos das divs */
+.div-apresetaçao, .div-final, .Certificados {
     display: flex;
     width: 100vw;
     height: 100vh;
 }
 
-.sobre-mim,.Certificados,.div-educação,.div-Certificados{
+.sobre-mim {
     width: 100vw;
     height: 50vh;
 }
 
-.div-apresetaçao1,.foto-capa,.foto-contra-capa,.Contato{
+.Certificados {
+    width: 100vw;
+    height: 65vh;
+}
+
+.div-educação, .div-Certificados {
+    width: 50vw;
+    height: 100vh;
+}
+
+/* Estilizando as divs */
+.div-apresetaçao1, .foto-capa, .foto-contra-capa, .Contato {
     flex: 1;
 }
 
-.div-apresetaçao1,.Contato{
+.div-apresetaçao1, .Contato {
     background-color: #2061B7;
 }
 
-.foto-capa{
+.foto-capa, .foto-contra-capa {
+    background-size: cover;
+    background-position: center;
+}
+
+.foto-capa {
     background-image: url(img/IMG_7003.JPEG);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed
+    background-attachment: fixed;
 }
 
-.foto-contra-capa{
+.foto-contra-capa {
     background-image: url(img/IMG_6341.JPEG);
-    background-size: cover;
-    background-position: center;
 }
 
-.sobre-mim{
+.sobre-mim {
     background-color: #bde9fb;
     text-align: center;
     padding: 90px;
 }
 
-.texto-sobre-mim,p{
+.texto-sobre-mim, p {
     padding-bottom: 50px;
     font-size: 15px;
 }
 
-.Certificados{
+.Certificados {
     background-color: #f6f6f6;
 }
 
-.Certificados h1{
+.Certificados h1 {
     text-align: center;
 }
 
-
-.Portifolio{
+/* Outras seções */
+.Portifolio, .div-educação {
     background-color: #f6f6f6;
-    text-align: center;
 }
 
-.Contato h1{
+.Contato h1 {
     font-size: 90px;
-    padding: 30px ;
+    padding: 30px;
     color: #BDE9FB;
 }
 
-.contato-pessoal{
+.contato-pessoal {
     color: #f6f6f6;
     padding: 12px 30px;
-
     font-size: 15px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.Certificados{
-    background: #2563eb;
+/* Portfolio Cards */
+.Aera {
+    width: 500px;
+    margin: 50px;
 }
-
 
 .container {
     display: flex;
-    justify-content: center;
-    align-items: center;
-
-
-    margin: 20px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .card {
-    display: flex;
-    justify-content: center;
-    width: 200px;
-    height: 180px;
-    position: relative;
-    background-color: #fff;
-    border-radius: 20px;
-    box-shadow: 0px 35px 80px rgba(0, 0, 0, 0.15);
-    transition: 0.5s;
-
-    margin: 30px;
-}
-
-.card:hover {
-    height: 300px;
-}
-
-.card .img-box {
-    position: absolute;
-    width: 100px;
-    height: auto;
-    top: 0px;
-    transition: 0.5s;
-}
-
-.card:hover .img-box {
-    top: -50px;
-    scale: 0.75;
-}
-
-.card .img-box img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.card .content {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    position: absolute;
-    top: 150px;
-    width: 100%;
-    padding: 0px 30px;
+    background-color: #ffffff;
+    width: 165px;
+    margin: 18px;
     text-align: center;
-    height: 30px;
-    overflow: hidden;
-    transition: 0.5s;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 6px 6px;
 }
 
-.card:hover .content {
-    top: 130px;
-    height: 250px;
-}
-
-.card .read-more {
-   background: linear-gradient(90deg, #3730a3, #7e22ce);
-   padding: 12px;
-   color: #fff;
-   text-decoration: none;
-   border-radius: 8px;
+.content h2, .content h3, .content h4, .content h5, .content h6 {
+    font-size: 16px;
 }
