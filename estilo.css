@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'sans-serif';
+    font-family: 'roboto'
 }
 
 /* Primeira div */
@@ -17,6 +17,10 @@
 /* Navegação */
 .div-ul {
     background-color: #281A39;
+
+    display: flex;
+    justify-content: flex-start;
+
 }
 
 .ul-nav {
@@ -40,16 +44,27 @@ li, a {
 .ola-sou {
     font-size: 50px;
     color: #BDE9FB;
+    margin-left: 40px;
 }
 
 .wesley-barrozo {
     font-size: 110px;
     color: #f6f6f6;
+    margin-left: 40px
 }
 
 .pequena-informaçao {
     font-size: 15px;
     color: #f6f6f6;
+    margin-left: 40px
+}
+
+.sobre-mim h1{
+    font-size: 48px;
+    margin-top: 80px;
+    margin-bottom: 35px;
+
+
 }
 
 /* Tamanhos das divs */
@@ -100,13 +115,25 @@ li, a {
 .sobre-mim {
     background-color: #bde9fb;
     text-align: center;
-    padding: 90px;
 }
 
 .texto-sobre-mim, p {
     padding-bottom: 50px;
-    font-size: 15px;
+    font-size: 17px;
+    font-weight: 500;
+
+    margin-left: 50px;
+    margin-right: 50px;
 }
+
+.sobre-mim a{
+    padding: 10px;
+    background-color: #2061B7;
+    border-radius: 25px;
+
+}
+
+
 
 .Certificados {
     background-color: #f6f6f6;
@@ -127,11 +154,7 @@ li, a {
     color: #BDE9FB;
 }
 
-.contato-pessoal {
-    color: #f6f6f6;
-    padding: 12px 30px;
-    font-size: 15px;
-}
+
 
 /* Portfolio Cards */
 .Aera {
@@ -158,3 +181,26 @@ li, a {
 .content h2, .content h3, .content h4, .content h5, .content h6 {
     font-size: 16px;
 }
+
+
+
+
+.titulo-contato{
+    font-size: 80px;
+}
+
+
+.contato-pessoal{
+    color: #f6f6f6;
+    font-size: 21px;
+    font-weight: bold;
+    margin-top: 38px;
+    margin-left: 35px;
+
+
+    display: block;
+}
+
+
+
+
